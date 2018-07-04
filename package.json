@@ -1,5 +1,5 @@
 {
-  "name": "webpack-scratch",
+  "name": "global-react-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jpreecedev/webpack-scratch.git"
+    "url": "git+https://github.com/jpreecedev/global-react-webpack.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jpreecedev/webpack-scratch/issues"
+    "url": "https://github.com/jpreecedev/global-react-webpack/issues"
   },
-  "homepage": "https://github.com/jpreecedev/webpack-scratch#readme",
+  "homepage": "https://github.com/jpreecedev/global-react-webpack#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.3",
