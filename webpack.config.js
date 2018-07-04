@@ -7,6 +7,7 @@ module.exports = {
   entry: {
     main: './client/index'
   },
+  mode: 'development',
   output: {
     path: path.resolve('dist'),
     filename: '[name].bundle.js'
@@ -32,6 +33,15 @@ module.exports = {
           },
           {
             loader: 'sass-loader'
+          }
+        ]
+      },
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader',
+            options: { minimize: true }
           }
         ]
       }
